@@ -1,23 +1,38 @@
-# Cornmaze
+# PLACEHOLDER
 
-The primary source of truth for all our repositories.
-
-This means that:
-- Cornmaze should not reference any other repository.
-- We store our libraries and scripts over here.
-- Some documentation regarding everyone is best viewed here.
+**PLACEHOLDER**
 
 ## Important links
 
-- [Documentation page](./docs/docs/index.md)
-- [Project page](https://github.com/users/TurnipXenon/projects/8)
+- [ ] Replace all PLACEHOLDER text
+- [ ] Documentation page
+- [ ] Project page
+- [ ] Technical specification doc
 
 **Specific sections inside the documentation page:**
 
-- [Onboarding guide](./docs/docs/onboarding.md)
+- [ ] Setup?
+- [ ] Quickstart
+- [ ] [Onboarding guide](./docs/docs/onboarding.md)
+- [ ] Testing locally
+- [ ] Testing via dev stack
+- [ ] Deploying to production
+- [ ] Runbook
+- [ ] API
+- [ ] Technical specification (generated)
+- Private workflow: https://turnipxenon.github.io/cornmaze/private_workflow/
+- Code standards: https://turnipxenon.github.io/cornmaze/code_standards/
 
 ## Contributing to README.md
 
-**Do not edit `./README.md`!** Instead, edit `./docs/docs/index.md`. After editing that file,
-run `go run dev/sync_readme/main.go` from the root folder `/`. That should automatically transform all the
-relative references.
+**Do not edit `./README.md`!** Instead, edit `./docs/docs/index.md`.
+
+**Requirements:**
+
+- You need Go >=1.17 installed.
+- Run `go install github.com/TurnipXenon/cornmaze/dev/sync_readme@latest`
+
+**Command:**
+
+After editing that file, run `go run github.com/TurnipXenon/cornmaze/dev/sync_readme` from the root folder `/`. That
+should automatically transform all the relative references.
