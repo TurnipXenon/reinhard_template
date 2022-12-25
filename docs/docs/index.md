@@ -30,7 +30,9 @@
 **Requirements:**
 
 - You need Go >=1.17 installed.
-- Run `go install github.com/TurnipXenon/cornmaze/dev/sync_readme`
+- Run `go install github.com/TurnipXenon/cornmaze/dev/sync_readme@latest`
+
+**Command:**
 
 After editing that file, run `go run github.com/TurnipXenon/cornmaze/dev/sync_readme` from the root folder `/`. That
 should automatically transform all the relative references.
