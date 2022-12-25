@@ -17,8 +17,8 @@
 ## Important links
 
 - [ ] Replace all PLACEHOLDER text
-- [ ] Documentation page
-- [ ] Project page
+- [Documentation page](https://turnipxenon.github.io/PLACEHOLDER)
+- [Project page](https://github.com/users/TurnipXenon/projects/8)
 - [ ] Technical specification doc
 
 **Specific sections inside the documentation page:**
