@@ -5,14 +5,14 @@
 ## Github housekeeping
 - [ ] Do we want this to be public?
 - [ ] Remove wiki
-- [ ] Do not allow merge commits and rebase mergine
+- [ ] Do not allow merge commits and rebase merging
 - [ ] Default message for squash merging should be pull request title
 - [ ] Automatically delete head branches
 - [ ] If asset heavy, include Git LFS and run `git lfs install` locally
 - [ ] Protect main branch
-  - [ ]  Require a pull request before merging
+    - [ ]  Require a pull request before merging
     - [ ] Require approvals and dismiss stale request approvals
-  - [ ]  Require status check to pass and require branches to be up to date before merging
+    - [ ]  Require status check to pass and require branches to be up-to-date before merging
 
 ## Important links
 
